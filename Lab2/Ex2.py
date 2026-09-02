@@ -1,5 +1,4 @@
-# Ask the user to enter their birth year, calculate their age based on the current year
-# and print it out.
+# Ask the user to enter their birth year, calculate their age based on the current year and print it out.
 # Name: Reesa Zhou
 # Date: September 2, 2026
 
