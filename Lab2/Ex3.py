@@ -2,10 +2,11 @@
 # Name: Reesa Zhou
 # Date: September 2, 2026
 
+# asks user to input decimal, then squares it
 inputValue = input("Enter a floating point number: ");
 floatValue = float(inputValue);
 squaredValue = floatValue ** 2;
 
+# outputs inputted value, then outputs squared value
 print("You entered:", floatValue);
 print("The square of the number you entered is:", squaredValue);
-
