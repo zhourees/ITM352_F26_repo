@@ -8,3 +8,9 @@ stringLength = len(userString);
 
 print("You entered:", userString);
 print("The length of the password you entered is:", stringLength);
+
+if(stringLength <= 10):
+    print("This is an ineffective string.");
+
+if(stringLength >= 10):
+    print("This is an effective string.");
