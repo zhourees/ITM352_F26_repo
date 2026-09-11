@@ -1,4 +1,4 @@
-# 
+# Calculates the midpoint between two inputted numbers
 # Name: Reesa Zhou
 # Date: September 9, 2026
 
