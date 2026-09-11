@@ -3,7 +3,10 @@
 # Date: September 9, 2026
 
 def midpoint(num1, num2):
-    return ((num1 + num2) / 2);
+    return ((float(num1) + float(num2)) / 2);
 
-print(midpoint(10,20));
+findNumOne = input("Enter the first number: ");
+findNumTwo = input("Enter the second number: ");
+
+print("The midpoint of these two numbers is:", midpoint(findNumOne, findNumTwo));
 
