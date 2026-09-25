@@ -1,4 +1,4 @@
-# 
+# Store trip data in a tuple and list, then print the 3rd trip's information
 # Name: Reesa Zhou
 # Date: September 23, 2026
 
