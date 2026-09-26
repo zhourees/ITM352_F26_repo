@@ -1,4 +1,4 @@
-# 
+# Create expression that checks if user inputted year is a leap year
 # Name: Reesa Zhou
 # Date: September 25, 2026
 
