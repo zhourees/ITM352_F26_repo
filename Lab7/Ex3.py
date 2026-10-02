@@ -1,4 +1,4 @@
-# CHeck how many elements in a tuple are strings, and print the amount
+# Check how many elements in a tuple are strings, and print the amount
 # Name: Reesa Zhou
 # Date: September 30, 2026
 
