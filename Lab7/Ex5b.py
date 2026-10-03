@@ -1,4 +1,4 @@
-# 
+# Do Ex5a without a loop
 # Name: Reesa Zhou
 # Date: October 2, 2026
 
