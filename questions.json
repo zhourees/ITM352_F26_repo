@@ -1,0 +1,17 @@
+{
+    "What is the capital of France? ": [
+        "Paris", 
+        "Foulousa", 
+        "Rice", 
+        "Antigonous"],
+    "What is the captial of Germany? ": [
+        "Berlin", 
+        "Mumlich", 
+        "Hamburg", 
+        "Frankfurt"],
+    "The last supper was painted by which artist? ": [
+        "Da Vinci", 
+        "Michelangeo", 
+        "Raphael", 
+        "Carneggie"]
+}
