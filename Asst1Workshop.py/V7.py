@@ -6,7 +6,7 @@ from string import ascii_lowercase
 import random
 import json
 
-question_file = open("questions.json", "r")
+question_file = open("questionsTest.json", "r")
 questions = json.load(question_file)
 
 NUM_QUESTIONS_PER_QUIZ = 5
