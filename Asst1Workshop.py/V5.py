@@ -21,8 +21,13 @@ for num, (question, answers) in enumerate(questions.items(), start=1):
     for label, answer in labeledAnswers.items():
         print(F"{label}. {answer}")
 
-    answerLabel = input("Choice? ").lower()
-    answer = labeledAnswers.get(answerLabel)
+    while True:
+        answerLabel = input("Choice? ").strip().lower()
+        if answerLabel in labeledAnswers:
+            break
+        print(F"\nInvalid choice. Please select one of {', '.join(labeledAnswers.keys())}")
+
+    answer = labeledAnswers[answerLabel]
 
     if answer == correctAnswer:
         print("\nCorrect!")

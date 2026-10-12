@@ -14,7 +14,15 @@ for question, answers in questions.items():
     for label, answer in enumerate(sortedAnswers, start=1):
         print(F"{label}. {answer}")
 
-    answerLabel = int(input(F"{question}Please type in the answer number: "))
+    while True:
+        try:
+            answerLabel = int(input(F"{question}Please type in the answer number: "))
+            if 1 <= answerLabel <= len(sortedAnswers):
+                break
+            print(F"Invalid choice. Please enter a number from 1 to {len(sortedAnswers)}.")
+        except ValueError:
+            print(f"Invalid choice. Please enter a number from 1 to {len(sortedAnswers)}.")
+
     answer = sortedAnswers[answerLabel - 1]
 
     if answer == correctAnswer:

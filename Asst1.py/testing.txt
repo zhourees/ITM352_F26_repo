@@ -1,0 +1,117 @@
+Question 1. Guess which lyric belongs to 'ART' by Tyla: 
+a. Everybody needs somebody, but I can't be a fool
+b. Can you snatch my soul from me?
+c. Dancing alone don't look right on me, yeah
+d. Fifty shades and hues, tailormade for you
+
+Please choose a letter: d
+
+Correct!
+
+Question 2. Guess which lyric belongs to 'Radio' by Bershy: 
+a. And oh, your arms made it hard for me to breath in
+b. Liked it best in Technicolor
+c. Do I really love you? Is it a reflex?
+d. God, you're a laser beam, you're all my teen dreams
+
+Please choose a letter: a
+
+Incorrect! The answer is 'God, you're a laser beam, you're all my teen dreams', not 'And oh, your arms made it hard for me to breath in'.
+
+Question 3. Guess which lyric belongs to 'pov' by Ariana Grande: 
+a. I'd rather be seen and alive than dying by your point of view
+b. I love the thought of you never leavin'
+c. Frozen, slowly thawin', got me right
+d. I don't like how you paint me, yet I'm still here hanging
+
+Please choose a letter: a
+
+Incorrect! The answer is 'Frozen, slowly thawin', got me right', not 'I'd rather be seen and alive than dying by your point of view'.
+
+Question 4. Guess which lyric belongs to 'Red Bottoms' by ADELA: 
+a. I'd rather be a nobody than to be like everyone
+b. And I always like to have the upper hand
+c. Give me time, break me in, shower me with compliments
+d. I like how you look at me like I'm the next Madonna
+
+Please choose a letter: a
+
+Incorrect! The answer is 'Give me time, break me in, shower me with compliments', not 'I'd rather be a nobody than to be like everyone'.
+
+Question 5. Guess which lyric belongs to 'Let You Break My Heart' by Laufey: 
+a. Purely mythological with the ugliest soul
+b. Some day, someone will like me like I like you
+c. I'm working overtime to have you in my world
+d. Don't you dare look at me that way
+
+Please choose a letter: a
+
+Incorrect! The answer is 'Some day, someone will like me like I like you', not 'Purely mythological with the ugliest soul'.
+
+You got 1 out of 5 questions correct.
+
+Your high score is 1.
+
+Would you like to try again? Yes/No: yes
+
+Question 1. Guess which lyric belongs to 'ART' by Tyla: 
+a. Fifty shades and hues, tailormade for you
+b. Dancing alone don't look right on me, yeah
+c. Everybody needs somebody, but I can't be a fool
+d. Can you snatch my soul from me?
+
+Please choose a letter: a
+
+Correct!
+
+Question 2. Guess which lyric belongs to 'Radio' by Bershy: 
+a. And oh, your arms made it hard for me to breath in
+b. God, you're a laser beam, you're all my teen dreams
+c. Do I really love you? Is it a reflex?
+d. Liked it best in Technicolor
+
+Please choose a letter: g
+Invalid choice. Try again.
+
+Please choose a letter: b
+
+Correct!
+
+Question 3. Guess which lyric belongs to 'pov' by Ariana Grande: 
+a. I'd rather be seen and alive than dying by your point of view
+b. I love the thought of you never leavin'
+c. I don't like how you paint me, yet I'm still here hanging
+d. Frozen, slowly thawin', got me right
+
+Please choose a letter: d
+
+Correct!
+
+Question 4. Guess which lyric belongs to 'Red Bottoms' by ADELA: 
+a. Give me time, break me in, shower me with compliments
+b. And I always like to have the upper hand
+c. I like how you look at me like I'm the next Madonna
+d. I'd rather be a nobody than to be like everyone
+
+Please choose a letter: a
+
+Correct!
+
+Question 5. Guess which lyric belongs to 'Let You Break My Heart' by Laufey: 
+a. I'm working overtime to have you in my world
+b. Some day, someone will like me like I like you
+c. Don't you dare look at me that way
+d. Purely mythological with the ugliest soul
+
+Please choose a letter: b
+
+Correct!
+
+You got 5 out of 5 questions correct.
+
+Your high score is 5.
+
+Would you like to try again? Yes/No: j
+Invalid choice. Please enter yes or no.
+
+Would you like to try again? Yes/No: no
