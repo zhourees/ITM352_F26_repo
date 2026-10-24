@@ -1,6 +1,6 @@
 # Open a CSV file and calculate the average, min, max for the Annual_Salary field
 # Name: Reesa Zhou
-# Date: October 21, 2026
+# Date: October 23, 2026
 
 import csv
 csvFileName = "Untitled spreadsheet - Sheet1.csv"

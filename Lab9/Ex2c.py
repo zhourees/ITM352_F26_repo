@@ -1,6 +1,6 @@
-# 
+# Create messages if the csv file does not exist or is unreadable
 # Name: Reesa Zhou
-# Date: October 21, 2026
+# Date: October 23, 2026
 
 import csv
 import os

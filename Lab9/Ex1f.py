@@ -1,6 +1,6 @@
 # Open a file, read its contents, then append a new name at the end of the file
 # Name: Reesa Zhou
-# Date: October 21, 2026
+# Date: October 23, 2026
 
 with open("names.txt", "r") as fileObject:
     contentsList = fileObject.readlines()
