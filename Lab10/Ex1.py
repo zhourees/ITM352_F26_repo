@@ -1,6 +1,6 @@
 # Analyze an array of tuples using Numpy
 # Name: Reesa Zhou
-# Date: October 28, 2026
+# Date: October 23, 2026
 
 import numpy as np
 
