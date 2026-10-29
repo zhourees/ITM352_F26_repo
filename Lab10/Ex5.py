@@ -5,7 +5,7 @@
 import pandas as pd
 
 homes_df = pd.read_csv("homes_data.csv")
-print(homes_df.head())
+print(homes_df.head(10))
 
 shape = homes_df.shape
 print("The dimensions of the dataframe are:", shape)
