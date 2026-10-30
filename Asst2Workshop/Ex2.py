@@ -15,10 +15,10 @@ def loadCSV(filepath):
         loadTime = endTime - startTime
         print(F"CSV file loaded successfully in {loadTime:.2f} seconds")
         print(F"Number of rows: {len(df)}")
+        return df
     except:
         print("Error reading the CSV file:", 0)
-
-    return df
+        return None
 
 csvFile = "sales_data.csv"
 salesData = loadCSV(csvFile)
