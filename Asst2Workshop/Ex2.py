@@ -1,4 +1,4 @@
-# 
+# Loads sales data CSV file and prints first 10 rows + data types
 # Name: Reesa Zhou
 # Date: October 30, 2026
 
@@ -20,9 +20,9 @@ def loadCSV(filepath):
         print("Error reading the CSV file:", 0)
         return None
 
-csvFile = "sales_data.csv"
+csvFile = "https://drive.google.com/uc?id=1ujY0WCcePdotG2xdbLyeECFW9lCJ4t-K&export=download"
 salesData = loadCSV(csvFile)
 
 if salesData is not None:
     print(salesData.head(10))
-
+    print(salesData.dtypes)
