@@ -1,4 +1,4 @@
-# 
+# Load CSV file and ask how many rows to display
 # Name: Reesa Zhou
 # Date: November 4, 2026
 
@@ -45,24 +45,24 @@ def displayInitialRows(data):
         print(data.head(numRows))
         return "Rows have been displayed."
 
-def showEmployeesByRegion(data):
-    counts = data.groupby("sales_region")["employee_id"].nunique()
-    print("Number of employees by region:")
-    print(counts.to_string())
-
-def exitProgram(data=None):
-    print("Exiting the program. Goodbye.")
-    raise SystemExit(0)
-
-menuOptions = (("Show the first n rows of sales data", displayInitialRows), ())
-
 def main():
-    csvFile = "https://drive.google.com/uc?id=1ujY0WCcePdotG2xdbLyeECFW9lCJ4t-K&export=download"
-    salesData = loadCSV(csvFile)
+    csv_file = 'https://drive.google.com/uc?id=1ujY0WCcePdotG2xdbLyeECFW9lCJ4t-K&export=download'
+    # csv_file = "junk.csv"  # Intentionally incorrect path to test error handling
+    salesData = loadCSV(csv_file)
 
     if salesData is None:
         return
 
-    print("\nData types of the dataframe fields: ")
+    # describe the dataframe field data types
+    print("\nData types of the dataframe fields:")
     print(salesData.dtypes)
 
+    try:
+        while True:
+            displayInitialRows(salesData)
+    except (KeyboardInterrupt, EOFError):
+        print("\nExiting.")
+
+
+if __name__ == "__main__":
+    main()
