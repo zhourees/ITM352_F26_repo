@@ -82,19 +82,19 @@ def getUserSelection(options, prompt, required=False, single=False):
 
 def generate_custom_pivot_table(data):
     row_options = list(data.columns)
-    rows = get_user_selection(row_options, "\nSelect rows (required):", required=True)
+    rows = getUserSelection(row_options, "\nSelect rows (required):", required=True)
 
     col_options = [col for col in row_options if col not in rows]
-    cols = get_user_selection(col_options, "\nSelect columns (optional, Enter to skip):")
+    cols = getUserSelection(col_options, "\nSelect columns (optional, Enter to skip):")
 
     value_options = list(data.select_dtypes(include=['number']).columns)
     if not value_options:
         print("No numeric columns available to aggregate.")
         return
-    values = get_user_selection(value_options, "\nSelect value to aggregate:", required=True, single=True)
+    values = getUserSelection(value_options, "\nSelect value to aggregate:", required=True, single=True)
 
     agg_options = ['sum', 'mean', 'count']
-    agg_func = get_user_selection(agg_options, "\nSelect aggregation function:", required=True, single=True)[0]
+    agg_func = getUserSelection(agg_options, "\nSelect aggregation function:", required=True, single=True)[0]
 
     try:
         pivot_table = pd.pivot_table(
