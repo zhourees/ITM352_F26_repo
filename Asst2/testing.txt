@@ -1,0 +1,290 @@
+TEST #1: Normal functions
+
+Choose which CSV file to analyze (File 1 or File 2): 2
+Loading file from sales_data_other.csv
+
+Loaded the file successfully! Load time: 0.02
+
+Enter the first year to include (2019-2021): 2020
+Enter the last year to include (2019-2021): 2020
+
+Including 2020-2020: 1059 of 5130 rows match.
+
+Dashboard:
+
+1. Show the first n rows of sales data
+2. Total sales by region and order type
+3. Average sales by region with average sales by state and sale type
+4. Sales by customer type and order type by state
+5. Total sales quantity and price by region and product
+6. Total sales quantity and price customer type
+7. Max and min sales price of sales by category
+8. Number of unique employees by region
+9. Create a custom pivot table
+10. Exit
+
+Please choose an action: 1
+
+How many rows out of 1059 would you like to display? 5
+
+    order_number  employee_id    employee_name               job_title    sales_region  ... product_category product_number                       produce_name  quantity  unit_price
+53       1105185    900019019  Alexandra Kundt  Senior Sales Associate  S Central East  ...    Bath products          BP502       Vanilla and Olive Oil Candle        10          20
+54       1105245    900019019  Alexandra Kundt  Senior Sales Associate  S Central East  ...    Bath products          BP501       Vanilla and Olive Bath Salts         5         299
+55       1105246    900019019  Alexandra Kundt  Senior Sales Associate  S Central East  ...    Bath products          BP105      Lavender and Olive Oil Lotion         4         135
+56       1105247    900019019  Alexandra Kundt  Senior Sales Associate  S Central East  ...    Bath products          BP302          Mandarin and Olive Candle         8         172
+57       1105260    900019019  Alexandra Kundt  Senior Sales Associate  S Central East  ...        Olive Oil          OO124  Basil Extra Virgin Olive Oil 12pk         1         201
+
+[5 rows x 15 columns]
+
+TEST #2: Invalid input 
+
+Choose which CSV file to analyze (File 1 or File 2): f
+Invalid choice. Try again.
+Choose which CSV file to analyze (File 1 or File 2): 7
+Select a valid file choice. Try again.
+Choose which CSV file to analyze (File 1 or File 2): 
+Invalid choice. Try again.
+Choose which CSV file to analyze (File 1 or File 2): 2
+Loading file from sales_data_other.csv
+
+Loaded the file successfully! Load time: 0.02
+
+Enter the first year to include (2019-2021): f
+Please enter valid whole-number years.
+
+Enter the first year to include (2019-2021): 4
+Enter the last year to include (2019-2021): 4
+Both years must be between 2019 and 2021.
+
+Enter the first year to include (2019-2021): 2020
+Enter the last year to include (2019-2021): 2020
+
+Including 2020-2020: 1059 of 5130 rows match.
+
+Dashboard:
+
+1. Show the first n rows of sales data
+2. Total sales by region and order type
+3. Average sales by region with average sales by state and sale type
+4. Sales by customer type and order type by state
+5. Total sales quantity and price by region and product
+6. Total sales quantity and price customer type
+7. Max and min sales price of sales by category
+8. Number of unique employees by region
+9. Create a custom pivot table
+10. Exit
+
+Please choose an action: a
+
+This does not work. Try again.
+
+Dashboard:
+
+1. Show the first n rows of sales data
+2. Total sales by region and order type
+3. Average sales by region with average sales by state and sale type
+4. Sales by customer type and order type by state
+5. Total sales quantity and price by region and product
+6. Total sales quantity and price customer type
+7. Max and min sales price of sales by category
+8. Number of unique employees by region
+9. Create a custom pivot table
+10. Exit
+
+Please choose an action: 11
+
+This does not work. Try again.
+
+Dashboard:
+
+1. Show the first n rows of sales data
+2. Total sales by region and order type
+3. Average sales by region with average sales by state and sale type
+4. Sales by customer type and order type by state
+5. Total sales quantity and price by region and product
+6. Total sales quantity and price customer type
+7. Max and min sales price of sales by category
+8. Number of unique employees by region
+9. Create a custom pivot table
+10. Exit
+
+Please choose an action: 
+
+This does not work. Try again.
+
+Dashboard:
+
+1. Show the first n rows of sales data
+2. Total sales by region and order type
+3. Average sales by region with average sales by state and sale type
+4. Sales by customer type and order type by state
+5. Total sales quantity and price by region and product
+6. Total sales quantity and price customer type
+7. Max and min sales price of sales by category
+8. Number of unique employees by region
+9. Create a custom pivot table
+10. Exit
+
+Please choose an action: 1
+
+How many rows out of 1059 would you like to display? f
+
+Please enter a valid number.
+
+How many rows out of 1059 would you like to display? 0
+Please enter a greater number than 0.
+
+How many rows out of 1059 would you like to display? 
+
+Please enter a valid number.
+
+How many rows out of 1059 would you like to display? 5
+
+    order_number  employee_id    employee_name               job_title    sales_region  ... product_category product_number                       produce_name  quantity  unit_price
+53       1105185    900019019  Alexandra Kundt  Senior Sales Associate  S Central East  ...    Bath products          BP502       Vanilla and Olive Oil Candle        10          20
+54       1105245    900019019  Alexandra Kundt  Senior Sales Associate  S Central East  ...    Bath products          BP501       Vanilla and Olive Bath Salts         5         299
+55       1105246    900019019  Alexandra Kundt  Senior Sales Associate  S Central East  ...    Bath products          BP105      Lavender and Olive Oil Lotion         4         135
+56       1105247    900019019  Alexandra Kundt  Senior Sales Associate  S Central East  ...    Bath products          BP302          Mandarin and Olive Candle         8         172
+57       1105260    900019019  Alexandra Kundt  Senior Sales Associate  S Central East  ...        Olive Oil          OO124  Basil Extra Virgin Olive Oil 12pk         1         201
+
+[5 rows x 15 columns]
+
+TEST #3: Trying to break the custom PivotTable
+
+Loaded the file successfully! Load time: 1.95
+
+Enter the first year to include (2019-2021): 2019
+Enter the last year to include (2019-2021): 2021
+
+Including 2019-2021: 5130 of 5130 rows match.
+
+Dashboard:
+
+1. Show the first n rows of sales data
+2. Total sales by region and order type
+3. Average sales by region with average sales by state and sale type
+4. Sales by customer type and order type by state
+5. Total sales quantity and price by region and product
+6. Total sales quantity and price customer type
+7. Max and min sales price of sales by category
+8. Number of unique employees by region
+9. Create a custom pivot table
+10. Exit
+
+Please choose an action: 9
+
+Available fields to group in rows: 
+1. employee_name
+2. sales_region
+3. product_category
+
+Select field for row: f
+
+Invalid choice. Please try again.
+1. employee_name
+2. sales_region
+3. product_category
+
+Select field for row: 
+
+Invalid choice. Please try again.
+1. employee_name
+2. sales_region
+3. product_category
+
+Select field for row: 1
+1. order_type
+2. customer_type
+
+Select field for column: 2
+1. quantity
+2. unit_price
+
+Select value: 3
+
+Invalid choice. Please try again.
+1. quantity
+2. unit_price
+
+Select value: 2
+1. sum
+2. mean
+3. count
+
+Select aggregation function: 1
+customer_type       Business  Individual       Sum
+employee_name                                     
+Alexandra Kundt      4806.99     6256.44  11063.43
+Alisha Hendricks     2612.92     6421.80   9034.72
+Alyssa Smoak         7033.50    11541.77  18575.27
+Ava Orosco           2333.44     2901.20   5234.64
+Becky Seneschal      2639.33     7527.33  10166.66
+Brenda Albury        7196.44     6571.63  13768.07
+Christen Barrett     4597.88     6664.18  11262.06
+Christy Beedom       2751.92     8221.46  10973.38
+Clement Carry        2640.99     3747.23   6388.22
+Colby Hallberg       5544.92     8892.74  14437.66
+Constantine Acosta    875.90     4069.80   4945.70
+Cynthia Cash         4141.99     8211.21  12353.20
+Dana Fizzer          2166.49     4725.70   6892.19
+Daniel Burgess       3457.92     7218.02  10675.94
+Delaney Marschke     2865.94     4696.21   7562.15
+Dolly Trowel         2878.69     5450.30   8328.99
+Dru Clingman         4608.49     8242.85  12851.34
+Eddie Harrower       1261.75     3981.69   5243.44
+Edward Loveless       575.00     4169.76   4744.76
+Georgia Eddowes      2922.50     7158.27  10080.77
+Hannah Rosenstock    3506.95     8564.31  12071.26
+Henry Rodriguez      4222.49     5328.09   9550.58
+Igor Hansen          4776.96     6081.59  10858.55
+John Ashwin          3802.68     6896.85  10699.53
+Kendra Barnbrook     5143.47     8284.78  13428.25
+Kristen Phillips     2426.48     4733.68   7160.16
+Lauren Skip          3610.44     8594.20  12204.64
+Lisa Frere           4072.25    10645.92  14718.17
+Logan Augur          1437.42     3573.87   5011.29
+Lorrie Ellison       3396.48     7073.28  10469.76
+Marla Phifer         2620.41     6085.48   8705.89
+Michelle Tiffany     2210.50     6403.17   8613.67
+Mitch White          2942.44     6100.38   9042.82
+Morten Shivers        107.99     2672.75   2780.74
+Nick Chen            6055.43    10747.30  16802.73
+Norm Hawkins         3248.50     7833.37  11081.87
+Paul Massimo         7225.88     9314.75  16540.63
+Shantel Francis      3861.47     8664.20  12525.67
+Sharla Sobie         3049.45     6738.57   9788.02
+Tanya Tibbets        1513.00     3266.86   4779.86
+Tricia Beaudry       1763.49     2223.43   3986.92
+Vincent Kobak        1888.98     3220.99   5109.97
+Winifred Fetterman   1808.49     5689.83   7498.32
+Wynona Smith         4156.49     7823.84  11980.33
+Sum                146761.14   283231.08 429992.22
+
+TEST #4: Exiting
+
+Choose which CSV file to analyze (File 1 or File 2): 2
+Loading file from sales_data_other.csv
+
+Loaded the file successfully! Load time: 0.02
+
+Enter the first year to include (2019-2021): 2019
+Enter the last year to include (2019-2021): 2021
+
+Including 2019-2021: 2036 of 5130 rows match.
+
+Dashboard:
+
+1. Show the first n rows of sales data
+2. Total sales by region and order type
+3. Average sales by region with average sales by state and sale type
+4. Sales by customer type and order type by state
+5. Total sales quantity and price by region and product
+6. Total sales quantity and price customer type
+7. Max and min sales price of sales by category
+8. Number of unique employees by region
+9. Create a custom pivot table
+10. Exit
+
+Please choose an action: 10
+
+Exiting the program...Goodbye!
