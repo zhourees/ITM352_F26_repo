@@ -1,8 +1,11 @@
 Data Structure Justification:
 
-The dashboard options are listed in a dictionary as they can correspond to their respective functions easier than any other format. It's also easier to separate text from function. Most of the program's space is taken up by functions since a large part of the program's purpose is to call those functions to display PivotTables. A large part of the program
+The dashboard options are listed in a dictionary as they can correspond to their respective functions easier than any other format. It's also easier to separate text from function.
+Most of the program's space is taken up by functions since a large part of the program's purpose is to call those functions to display PivotTables. A large part of the program
 is also based on user input. The file that's loaded, the date range being filtered out, the function being called, and how to interact with those functions are all
-based on what number the user inputs. The program is built to counteract invalid inputs so that it runs smoothly.
+based on what number the user inputs. The program is built to counteract invalid inputs so that it runs smoothly. Side note: please make sure the program can access
+"sales_data_other.csv" since it isn't uploaded to Google Drive like the original sales_data file is.
+
 
 Function Design:
 
