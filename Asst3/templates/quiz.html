@@ -9,8 +9,8 @@
     <title>Quiz</title>
     <form method="POST">
         <h1>Question {{questionNumber+1}}: {{question}}</h1>
-        {% for option in options %}
-            <input type="radio" name="answer" value="{{option}}"> {{option}}<br>
+        {% for choice in choices %}
+            <input type="radio" name="answer" value="{{choice}}"> {{choice}}<br>
         {% endfor %}
         <button type="submit">Submit Answer</button>
     </form>
