@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body data-result-url="{{ url_for('result') }}">
+    <form method="POST">
+        <h1>Question {{questionNumber+1}}: {{question}}</h1>
+        {% for choice in choices %}
+            <input type="radio" name="answer" value="{{choice}}"> {{choice}}<br>
+        {% endfor %}
+        <button type="submit">Submit Answer</button>
+    </form>
+    <p>Time left: <span id="timer">15</span> seconds</p>
+    <script>
+        let timeLeft = 15;
+        const endQuiz = document.body.dataset.resultUrl;
+        const timer = document.getElementById("timer");
+
+        const countdown = setInterval(() => {
+            timeLeft--;
+            timer.textContent = timeLeft;
+
+            if (timeLeft <= 0) {
+                clearInterval(countdown);
+                window.location.replace(endQuiz);
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

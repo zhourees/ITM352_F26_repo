@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to the Quiz</title>
+    <style>
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        body {
+            margin: 0;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+}
+        h1 {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: normal;
+            font-size: 64px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: normal;
+            margin: auto;
+            width: fit-content;
+            padding: 10px;
+            border-style: solid;
+            border-width: 2px;
+        }
+    </style>
+    <title>Reesa's Quiz</title>
 </head>
 <body>
-    <h1>Welcome to the Quiz</h1>
-    <h2><a href="{{ url_for('quiz') }}">Start Quiz</a></h2>
+    <div>
+        <h1>Start the Lyric Quiz</h1>
+        <br>
+        <h2><a href="{{ url_for('quiz') }}">Normal Mode</a></h2>
+        <br>
+        <h2><a href="{{ url_for('quizTimed') }}">Timed Mode</a></h2>
+    </div>
 </body>
 </html>
