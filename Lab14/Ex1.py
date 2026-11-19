@@ -17,4 +17,3 @@ for line in response:
     line = line.decode("utf-8").strip()
     if "<title>" in line:
         print(line)
-
