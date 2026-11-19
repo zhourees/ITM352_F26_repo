@@ -3,10 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-image: url(https://cdn.wallpapersafari.com/53/15/XdCHGyw.webp);
+            background-size: cover;
+}
+        h1 {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: normal;
+            font-size: 40px;
+            margin: auto;
+            background-color: transparent;
+            padding: 8px;
+}
+        form.correct {
+            animation: correct-flash 900ms ease-out;
+}
+        form.wrong {
+            animation: wrong-flash 900ms ease-out;
+}
+        @keyframes correct-flash {
+            from { background-color: #c8f7c5; }
+            to { background-color: white; }
+}
+        @keyframes wrong-flash {
+            from { background-color: #f7c5c5; }
+            to { background-color: white; }
+}
+        form {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: normal;
+            font-size: 25px;
+            margin: auto;
+            background-color: white;
+            border-style: solid;
+            border-width: black;
+            padding: 8px;
+            padding-bottom: 16px;
+}
+        button {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: normal;
+            font-size: 15px;
+            margin: auto;
+            margin-top: 15px;
+            background-image: linear-gradient(to top, #f8f4ff, #f2dbff);
+            border-style: solid;
+            border-width: black;
+            padding: 5px;
+}
+        input[type="radio"] {
+            accent-color: #9a8ad2;
+            width: 20px;
+            height: 20px;
+            margin: 12px;
+            border: 2px solid #301c55;
+}
+    </style>
     <title>Quiz</title>
 </head>
 <body>
-    <form method="POST">
+    <form method="POST" class="{{ feedback or '' }}">
         <h1>Question {{questionNumber+1}}: {{question}}</h1>
         {% for choice in choices %}
             <input type="radio" name="answer" value="{{choice}}"> {{choice}}<br>

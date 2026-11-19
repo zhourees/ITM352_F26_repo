@@ -1,0 +1,45 @@
+Day 1 Debugging:
+
+- Replacing list with .json file for questions
+- Questions display fine, the answers don't show up
+- Found out how to display dictionary values using indexes
+- Quiz only displays 4 of the same answer
+- Quiz now only displays one answer
+- Fixed with k=4
+
+- Need to randomize the answers every repeat
+- random.sample doesn't work if I just attach it to the dictionary values
+- Found out about list(), which I can attach random.sample() to
+- Answers are randomized, but stay in the same order every repeat
+- Fixed with list().copy to create a new randomized answer selection each time
+
+Day 2 Debugging:
+
+- Implementing timer feature
+- Used google's AI to give a basic timer to work with
+- Added script to quiz.html accordingly
+- The timer did not redirect user after going to 0, and the timer did not count down
+- Used VSCode agent to fix this
+- Agent fixed the timer, it now counts down and redirects user to the results page
+
+- Created quizTimed.html to differentiate from quiz.html
+- App failed to run afterwards, although I added more variables to differentiate further
+- Used VSCode Agent to fix this issue
+- Turns out I forgot to rename the @app route to quizTimed
+
+- Got started with styling pages, starting with index.html
+- Searched up various ideas I had on Google and used Google's AI to get the right attributes
+- Also looked at W3 to find different colors, font types, etc.
+- Text ends up in weird places, also are not centered
+- Google AI gave options to center text in the exact center of page
+- Text is now front and center
+
+Day 3 Debugging:
+
+- Finishing up styling for rest of html templates
+- Continuously used Google's AI to give the right lines of code to style pages
+- Tinkered with different padding, margin, border, font, and alignments
+- Styling took the most time on this day
+- Implemented dynamic answer feedback using VSCode Agent
+- Agent made only the question flash red or green when answer was submitted
+- Changed it to the whole quiz box
